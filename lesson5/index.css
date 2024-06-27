@@ -20,19 +20,19 @@ header nav{
 }
 header nav ul{
     width: 100%;
-    list-style: none;
+    list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-
 }
-header nav ul li{
+header nav ul a{
     text-decoration: none;
     color: grey;
     transition: 0.5s;
     font-size: 18px;
 }
-header nav ul li:hover{
-    color: #448744;
+
+header nav ul a:hover{
+    color: #4f4fd3;
     transition: 1s;
 }
 header div{
@@ -56,18 +56,18 @@ section{
     margin-top: 10vh;
 }
 section p{
-    font-size: 30px;
+    font-size: 20px;
 }
 section h1{
     font-size: 100px;
     letter-spacing: 40px;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 section button{
     width: 200px;
     height: 40px;
-    margin-top: 25px;
-    background-color: #505060;
+    margin-top: 15px;
+    background-color: #202045;
     color: white;
     border: none;
     border-radius: 10px;
