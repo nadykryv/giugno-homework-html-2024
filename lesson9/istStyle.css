@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    width: 600px;
+    height: 90vh;
+    border: 2px solid grey;
+    margin: 100px 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 70vh;
+    background-color: white;
+    border: 2px solid grey;
+    margin: 2px auto;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.header{
+    border: 0 solid ;
+    margin-bottom: 6px;
+}
+.header img{
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    left: 40px;
+}
+.box{
+    width: 350px;
+    height: 10vh;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 3px auto;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+.container h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+input{
+    width: 100%;
+    margin-bottom: 7px;
+    padding: 8px 12px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+button{
+    width: 100%;
+    background-color: powderblue;
+    border: 1px solid powderblue;
+    border-radius: 10px;
+    padding: 5px 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.spanOr{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+.box-txt a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a{
+    text-decoration: none;
+}
