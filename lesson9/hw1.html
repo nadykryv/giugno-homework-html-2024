@@ -3,8 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: cadetblue;
+            display: flex;
+            justify-content: center;
+            margin-top: 10vh;
+        }
+        .flex{
+            width: 50vw;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            border-radius: 10vh;
+        }
+        #top{
+            width: 50vw;
+            height: 20vh;
+            background: powderblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+
+        }
+        #bottom{
+            width: 50vw;
+            height: 60vh;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+        label{
+            display: block;
+            margin-top: 30px;
+            background-color: white;
+
+        }
+        input{
+            width:25vw;
+            height: 5vh;
+            background-color: white;
+            border-radius: 2px;
+
+        }
+        .Yes{
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 1px solid brown;
+            margin-bottom: -2px;
+            border-radius: 2px;
+            text-align: center;
+
+        }
+        button{
+            width: 8vw;
+            height: 4vh;
+            border-radius: 7px;
+            border: 1px solid rgba(156, 152, 152, 0.10);
+            background: powderblue;
+            font-size: 20px;
+            margin: 30px 40px 60px 80px;
+
+        }
+        .box-txt{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+            margin: 10px 20px;
+            padding: 15px 30px;
+
+
+        }
+
+    </style>
 </head>
 <body>
+<div class="flex">
+
+    <section id="top">
+        <h1>Вхід в особистий кабінет</h1>
+    </section>
+    <section id="bottom">
+
+        <form>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Логін або email">
+
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="пароль">
+            <div class="box-txt">
+                <label class="inline">Запам'ятати мене <input type="checkbox" name="Yes" class="Yes"> <button >Вхід</button></label>
+            </div>
+        </form>
+    </section>
+</div>
 
 </body>
 </html>
