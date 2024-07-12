@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prealoder</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            margin: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: box 2s ease-out  infinite alternate ;
+
+        }
+        @keyframes box {
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+
+                transform: rotate(90deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(-90deg);
+            }
+            100%{
+                transform: rotate(90deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="img/terra.png" alt="terra">
+</div>
+
+</body>
+</html>
