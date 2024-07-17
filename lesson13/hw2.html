@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 132px;
+        }
+        .card{
+            width: 319px;
+            height: 492px;
+            flex-shrink: 0;
+            border: 4px solid #554C4C;
+            background: rgba(217, 217, 217, 0.30);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .ellipse{
+            width: 100px;
+            height: 100px;
+            fill: #FFF;
+            stroke-width: 4px;
+            stroke: #554C4C;
+            position: absolute;
+            top: -50px;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            background: white ;
+            position: absolute;
+            z-index: 1;
+            top: 19px;
+            right: 20px;
+        }
+        h3{
+            color: #000;
+            font-family: "Inter", sans-serif;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: absolute;
+            top: 174px;
+            bottom: 4px;
+
+        }
+        p{
+            width: 257px;
+            color: #000;
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: absolute;
+            bottom: 193px;
+            left: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="ellipse">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="48" fill="white" stroke="#554C4C" stroke-width="4"/>
+        </svg>
+        <img src="img/Ds3Tool.png" alt="Ds3Tool">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+<div class="card">
+    <div class="ellipse">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="48" fill="white" stroke="#65856E" stroke-width="4"/>
+        </svg>
+        <img src="img/Chessboard.png" alt="chessboard">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+<div class="card">
+    <div class="ellipse">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="48" fill="white" stroke="#554C4C" stroke-width="4"/>
+        </svg>
+        <img src="img/Battle.png" alt="battle">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+
+</body>
+</html>

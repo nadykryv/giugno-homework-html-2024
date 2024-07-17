@@ -24,6 +24,7 @@ header ul a{
 }
 main{
     height: 88vh;
+    background: #FBF6F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,8 +34,8 @@ main img{
     margin: 9vw 6vh 2vw 15vh;
 }
 img{
-    width: 34vw;
-    height: 58vh;
+    width: 581px;
+    height: 653px;
     display: flex;
     justify-content: flex-start;
     align-items: center;

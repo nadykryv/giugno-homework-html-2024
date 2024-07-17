@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*-----------------header---------------------*/
+header{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header nav{
+    width: 50%;
+
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+div img{
+    width: 50px;
+    height: 50px;
+
+}
+div h1{
+    color: white;
+}
+header nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    text-shadow: 2px 2px 2px grey;
+    margin-top: 30px;
+}
+header nav ul a:hover{
+    color: deepskyblue;
+    transition: 1s;
+}
+header button{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    text-shadow: 1px 1px 1px #ddd6d6;
+}
+/*---------------------SECTION-----------------*/
+
+.content{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+
+}
+h1{
+    width: 600px;
+    font-family: 'PT Serif', serif;
+    text-shadow: 3px 3px 3px grey;
+}
+form{
+    width: 500px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#one{
+    width: 100px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+input[type="search"]{
+    width: 250px;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+input:focus{
+    outline: none;
+}
+#two{
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    color: deepskyblue;
+    transition: 1s;
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
