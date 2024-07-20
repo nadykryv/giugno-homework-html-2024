@@ -153,7 +153,6 @@ main{
 
 /*-----------------------------SECTION-2-----------------------------*/
 
-
 .content2{
     width: 1400px;
     height: 764px;
@@ -165,11 +164,11 @@ main{
 }
 .first{
     width: 1074px;
-    height: 100px;
+    height: 56px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 62px 127px 97px 115px;
+    margin: 50px 115px 85px 115px;
 
 }
 .card{
@@ -217,7 +216,7 @@ main{
 }
 .second{
     width: 1074px;
-    height: 130px;
+    height: 150px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -227,7 +226,6 @@ main{
 }
 .second>h2{
     width: 1074px;
-    height: 126px;
     color: #FFF;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -241,7 +239,6 @@ main{
 }
 .second>p{
     width: 545px;
-    height: 24px;
     color:  #8E88C1;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -250,7 +247,7 @@ main{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
-    margin: 15px 427px 58px 428px;
+    margin: 0 427px 58px 428px;
 
 }
 .third{
@@ -267,8 +264,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 58px;
     gap: 32px;
+    margin-bottom: 144px;
 
 }
 .box{
@@ -281,7 +278,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 26px;
-    margin-top: 58px;
+
 }
 
 
